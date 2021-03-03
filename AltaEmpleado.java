@@ -391,7 +391,17 @@ emp.setApMaterno(jTextField3.getText());
 emp setEdad(Integer.parseInt(jTextField4.getText()));
 emp.setCurp(jTextField5.getText());
         emp.getDomicilio().setCalle(this.jTextField6.getText());
-
+        emp.getDomicilio().setNumero(this.jTextField7.getText());
+        emp.getDomicilio().SetColonia(this.jTextField8.getText());
+        emp.getDomicilio().SetDelegacion(this.jTextField9.getText());
+        emp.getDomicilio().SetEstado(this.jTextField10.getText());
+        emp.setNumeroEmpleado(integer.parseInt(this.jTextField11.getText()));
+        emp.setDepartamento(this.jTextField12.getText());
+        emp setSueldo(Float.parseFloat(this.jTextField13.getText()));
+        emp.setHorasExtra(integer.parseInt(this.jTextField14.getText()));
+        int confirmar =J0PtionPane.showConfirmDialog(this,"¿Deseas guardar estos datos?");
+        
+        
 
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton5MouseClicked
